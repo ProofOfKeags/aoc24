@@ -24,12 +24,13 @@ executable aoc24
       Day1.Code
       Day2.Code
       Day3.Code
+      Day4.Code
       Paths_aoc24
   autogen-modules:
       Paths_aoc24
   hs-source-dirs:
       src
-  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -fdefer-typed-holes
   build-depends:
       attoparsec
     , base >=4.7 && <5
