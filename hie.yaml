@@ -1,0 +1,18 @@
+cradle:
+  multi:
+    - path: "./src/Main.hs"
+      component: "aoc24:exe:aoc24"
+      config:
+        cradle:
+          stack:
+
+    - path: "./src"
+      component: "aoc24:exe:aoc24"
+      config:
+        cradle:
+          stack:
+
+    - path: "./Setup.hs"
+      config:
+        cradle:
+          none:
