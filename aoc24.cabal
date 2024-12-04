@@ -22,6 +22,7 @@ executable aoc24
   main-is: Main.hs
   other-modules:
       Day1.Code
+      Day2.Code
       Paths_aoc24
   autogen-modules:
       Paths_aoc24
