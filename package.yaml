@@ -16,7 +16,9 @@ dependencies:
   - base >= 4.7 && < 5
   - attoparsec
   - directory
+  - either
   - text
+  - unordered-containers
 
 ghc-options:
 - -Wall

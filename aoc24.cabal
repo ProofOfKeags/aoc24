@@ -25,6 +25,7 @@ executable aoc24
       Day2.Code
       Day3.Code
       Day4.Code
+      Day5.Code
       Paths_aoc24
   autogen-modules:
       Paths_aoc24
@@ -35,5 +36,7 @@ executable aoc24
       attoparsec
     , base >=4.7 && <5
     , directory
+    , either
     , text
+    , unordered-containers
   default-language: Haskell2010
